@@ -1,0 +1,7 @@
+F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\bin\Debug\DbAccess.dll
+F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\bin\Debug\DbAccess.pdb
+F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\bin\Debug\log4net.dll
+F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\bin\Debug\System.Data.SQLite.dll
+F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\obj\Debug\DbAccess.csprojResolveAssemblyReference.cache
+F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\obj\Debug\DbAccess.dll
+F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\obj\Debug\DbAccess.pdb

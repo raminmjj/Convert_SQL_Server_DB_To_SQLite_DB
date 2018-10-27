@@ -1,0 +1,14 @@
+F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\Converter\bin\Debug\Converter.exe.config
+F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\Converter\bin\Debug\Converter.exe
+F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\Converter\bin\Debug\Converter.pdb
+F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\Converter\bin\Debug\DbAccess.dll
+F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\Converter\bin\Debug\log4net.dll
+F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\Converter\bin\Debug\System.Data.SQLite.dll
+F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\Converter\bin\Debug\DbAccess.pdb
+F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\Converter\obj\Debug\Converter.csprojResolveAssemblyReference.cache
+F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\Converter\obj\Debug\Converter.MainForm.resources
+F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\Converter\obj\Debug\Converter.TableSelectionDialog.resources
+F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\Converter\obj\Debug\Converter.ViewFailureDialog.resources
+F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\Converter\obj\Debug\Converter.csproj.GenerateResource.Cache
+F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\Converter\obj\Debug\Converter.exe
+F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\Converter\obj\Debug\Converter.pdb

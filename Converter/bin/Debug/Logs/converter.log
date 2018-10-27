@@ -1,0 +1,853 @@
+DEBUG 2018-10-27 16:29:29,814 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:837) - parsed table schema for [spt_fallback_db]
+DEBUG 2018-10-27 16:29:29,973 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:837) - parsed table schema for [spt_fallback_dev]
+DEBUG 2018-10-27 16:29:30,103 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:837) - parsed table schema for [spt_fallback_usg]
+DEBUG 2018-10-27 16:29:30,235 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:837) - parsed table schema for [spt_monitor]
+DEBUG 2018-10-27 16:29:30,363 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:837) - parsed table schema for [MSreplication_options]
+DEBUG 2018-10-27 16:29:30,364 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:841) - finished parsing all tables in SQL Server schema
+DEBUG 2018-10-27 16:29:36,569 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:883) - parsed view schema for [spt_values]
+DEBUG 2018-10-27 16:29:36,585 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:461) - Creating SQLite database...
+DEBUG 2018-10-27 16:29:36,586 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:466) - SQLite file was created successfully at [F:\WorkFile\C#工程游乐场\sqlite-tools-win32-x86-3250200\yyztest.db]
+DEBUG 2018-10-27 16:29:36,613 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:36,613 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:36,614 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:36,614 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:36,614 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:36,614 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:36,614 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:36,614 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+ INFO 2018-10-27 16:29:36,614 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:574) - 
+
+CREATE TABLE [spt_fallback_db] (
+	[xserver_name]	varchar(30) NOT NULL COLLATE NOCASE,
+	[xdttm_ins]	datetime NOT NULL,
+	[xdttm_last_ins_upd]	datetime NOT NULL,
+	[xfallback_dbid]	smallint,
+	[name]	varchar(30) NOT NULL COLLATE NOCASE,
+	[dbid]	smallint NOT NULL,
+	[status]	smallint NOT NULL,
+	[version]	smallint NOT NULL
+
+);
+
+
+
+DEBUG 2018-10-27 16:29:36,861 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:491) - added schema for SQLite table [spt_fallback_db]
+DEBUG 2018-10-27 16:29:36,861 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:36,861 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:36,861 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:36,861 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:36,862 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:36,862 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:36,862 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:36,862 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:36,974 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:36,974 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+ INFO 2018-10-27 16:29:36,974 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:574) - 
+
+CREATE TABLE [spt_fallback_dev] (
+	[xserver_name]	varchar(30) NOT NULL COLLATE NOCASE,
+	[xdttm_ins]	datetime NOT NULL,
+	[xdttm_last_ins_upd]	datetime NOT NULL,
+	[xfallback_low]	integer,
+	[xfallback_drive]	char(2) COLLATE NOCASE,
+	[low]	integer NOT NULL,
+	[high]	integer NOT NULL,
+	[status]	smallint NOT NULL,
+	[name]	varchar(30) NOT NULL COLLATE NOCASE,
+	[phyname]	varchar(127) NOT NULL COLLATE NOCASE
+
+);
+
+
+
+DEBUG 2018-10-27 16:29:37,077 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:491) - added schema for SQLite table [spt_fallback_dev]
+DEBUG 2018-10-27 16:29:37,077 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:37,077 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:37,077 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:37,175 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:37,175 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:37,175 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:37,175 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:37,175 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:37,175 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+ INFO 2018-10-27 16:29:37,175 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:574) - 
+
+CREATE TABLE [spt_fallback_usg] (
+	[xserver_name]	varchar(30) NOT NULL COLLATE NOCASE,
+	[xdttm_ins]	datetime NOT NULL,
+	[xdttm_last_ins_upd]	datetime NOT NULL,
+	[xfallback_vstart]	integer,
+	[dbid]	smallint NOT NULL,
+	[segmap]	integer NOT NULL,
+	[lstart]	integer NOT NULL,
+	[sizepg]	integer NOT NULL,
+	[vstart]	integer NOT NULL
+
+);
+
+
+
+DEBUG 2018-10-27 16:29:37,294 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:491) - added schema for SQLite table [spt_fallback_usg]
+DEBUG 2018-10-27 16:29:37,376 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:37,376 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:37,376 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:37,376 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:37,376 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:37,377 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:37,377 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:37,377 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:37,377 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:37,377 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:37,377 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+ INFO 2018-10-27 16:29:37,377 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:574) - 
+
+CREATE TABLE [spt_monitor] (
+	[lastrun]	datetime NOT NULL,
+	[cpu_busy]	integer NOT NULL,
+	[io_busy]	integer NOT NULL,
+	[idle]	integer NOT NULL,
+	[pack_received]	integer NOT NULL,
+	[pack_sent]	integer NOT NULL,
+	[connections]	integer NOT NULL,
+	[pack_errors]	integer NOT NULL,
+	[total_read]	integer NOT NULL,
+	[total_write]	integer NOT NULL,
+	[total_errors]	integer NOT NULL
+
+);
+
+
+
+DEBUG 2018-10-27 16:29:37,691 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:491) - added schema for SQLite table [spt_monitor]
+DEBUG 2018-10-27 16:29:37,691 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:37,692 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:37,692 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:37,692 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:37,692 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:37,692 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+ INFO 2018-10-27 16:29:37,692 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:574) - 
+
+CREATE TABLE [MSreplication_options] (
+	[optname]	nvarchar(128) NOT NULL COLLATE NOCASE,
+	[value]	bit NOT NULL,
+	[major_version]	integer NOT NULL,
+	[minor_version]	integer NOT NULL,
+	[revision]	integer NOT NULL,
+	[install_failures]	integer NOT NULL
+
+);
+
+
+
+DEBUG 2018-10-27 16:29:37,849 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:491) - added schema for SQLite table [MSreplication_options]
+DEBUG 2018-10-27 16:29:37,850 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:519) - finished adding all table/view schemas for SQLite database
+DEBUG 2018-10-27 16:29:37,851 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:133) - preparing to insert tables ...
+DEBUG 2018-10-27 16:29:37,858 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:186) - finished inserting all rows for table [spt_fallback_db]
+DEBUG 2018-10-27 16:29:37,862 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:186) - finished inserting all rows for table [spt_fallback_dev]
+DEBUG 2018-10-27 16:29:37,863 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:186) - finished inserting all rows for table [spt_fallback_usg]
+DEBUG 2018-10-27 16:29:37,966 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:186) - finished inserting all rows for table [spt_monitor]
+DEBUG 2018-10-27 16:29:38,093 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:186) - finished inserting all rows for table [MSreplication_options]
+DEBUG 2018-10-27 16:29:42,981 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:837) - parsed table schema for [Bim_IconLocation]
+DEBUG 2018-10-27 16:29:42,989 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:837) - parsed table schema for [CityMakerTree]
+DEBUG 2018-10-27 16:29:42,994 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:837) - parsed table schema for [Foreigner_PandectBanners]
+DEBUG 2018-10-27 16:29:42,997 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:837) - parsed table schema for [Bim_ProjectsIofo]
+DEBUG 2018-10-27 16:29:43,001 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:837) - parsed table schema for [Foreigner_PandectRecords]
+DEBUG 2018-10-27 16:29:43,008 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:837) - parsed table schema for [Bim_ProjectIcon]
+DEBUG 2018-10-27 16:29:43,011 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:837) - parsed table schema for [DrawingsElement]
+DEBUG 2018-10-27 16:29:43,015 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:837) - parsed table schema for [CityMakerWKT]
+DEBUG 2018-10-27 16:29:43,020 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:837) - parsed table schema for [KingsRoad_Projects]
+DEBUG 2018-10-27 16:29:43,024 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:837) - parsed table schema for [DATmpTable]
+DEBUG 2018-10-27 16:29:43,028 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:837) - parsed table schema for [Bim_Projects]
+DEBUG 2018-10-27 16:29:43,034 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:837) - parsed table schema for [TmpAssociateTable]
+DEBUG 2018-10-27 16:29:43,041 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:837) - parsed table schema for [Bim_Parts]
+DEBUG 2018-10-27 16:29:43,045 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:837) - parsed table schema for [CityMakerEnvelope]
+DEBUG 2018-10-27 16:29:43,050 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:837) - parsed table schema for [v_parts]
+DEBUG 2018-10-27 16:29:43,059 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:837) - parsed table schema for [v_items]
+DEBUG 2018-10-27 16:29:43,064 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:837) - parsed table schema for [v_quality]
+DEBUG 2018-10-27 16:29:43,212 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:837) - parsed table schema for [v_progress]
+DEBUG 2018-10-27 16:29:43,217 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:837) - parsed table schema for [Bim_Users]
+DEBUG 2018-10-27 16:29:43,221 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:837) - parsed table schema for [Bim_UserGroups]
+DEBUG 2018-10-27 16:29:43,225 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:837) - parsed table schema for [Bim_Roles]
+DEBUG 2018-10-27 16:29:43,230 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:837) - parsed table schema for [Bim_Permissions]
+DEBUG 2018-10-27 16:29:43,235 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:837) - parsed table schema for [Bim_UserOwners]
+DEBUG 2018-10-27 16:29:43,236 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:841) - finished parsing all tables in SQL Server schema
+DEBUG 2018-10-27 16:29:44,298 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:883) - parsed view schema for [vCityMakerTree]
+DEBUG 2018-10-27 16:29:44,300 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:883) - parsed view schema for [vBim_Parts]
+DEBUG 2018-10-27 16:29:44,301 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:461) - Creating SQLite database...
+DEBUG 2018-10-27 16:29:44,301 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:466) - SQLite file was created successfully at [F:\WorkFile\C#工程游乐场\sqlite-tools-win32-x86-3250200\yyztest.db]
+DEBUG 2018-10-27 16:29:44,302 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:44,302 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:44,302 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:44,302 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:44,302 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:44,302 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:44,302 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:44,319 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+ INFO 2018-10-27 16:29:44,319 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:574) - 
+
+CREATE TABLE [Bim_IconLocation] (
+	[id]	integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	[ProjectID]	nvarchar(50) COLLATE NOCASE,
+	[GUID]	nvarchar(50) COLLATE NOCASE,
+	[ProjectType]	nvarchar(50) COLLATE NOCASE,
+	[name]	nvarchar(50) COLLATE NOCASE,
+	[X]	nvarchar(50) COLLATE NOCASE,
+	[Y]	nvarchar(50) COLLATE NOCASE,
+	[Z]	nvarchar(50) COLLATE NOCASE
+
+);
+
+
+
+DEBUG 2018-10-27 16:29:44,431 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:491) - added schema for SQLite table [Bim_IconLocation]
+DEBUG 2018-10-27 16:29:44,431 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:44,431 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:44,431 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:44,431 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:44,431 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:44,519 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:44,519 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+ INFO 2018-10-27 16:29:44,519 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:574) - 
+
+CREATE TABLE [CityMakerTree] (
+	[Id]	nvarchar(50) COLLATE NOCASE,
+	[ParentId]	nvarchar(50) COLLATE NOCASE,
+	[ProjectGuid]	nvarchar(50) COLLATE NOCASE,
+	[PartName]	nvarchar(50) COLLATE NOCASE,
+	[FeatureClassId]	nvarchar(50) COLLATE NOCASE,
+	[ObjectId]	nvarchar(50) COLLATE NOCASE,
+	[CreateDate]	datetime
+
+);
+
+
+
+DEBUG 2018-10-27 16:29:44,600 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:491) - added schema for SQLite table [CityMakerTree]
+DEBUG 2018-10-27 16:29:44,600 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:44,600 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:44,600 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:44,600 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:44,600 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:44,720 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:44,720 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+ INFO 2018-10-27 16:29:44,720 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:574) - 
+
+CREATE TABLE [Foreigner_PandectBanners] (
+	[Id]	varchar(36) NOT NULL COLLATE NOCASE,
+	[TenderId]	varchar(36) COLLATE NOCASE,
+	[BannerName]	varchar(36) COLLATE NOCASE,
+	[BanserType]	varchar(10) COLLATE NOCASE,
+	[X]	varchar(12) COLLATE NOCASE,
+	[Y]	varchar(12) COLLATE NOCASE,
+	[Z]	varchar(12) COLLATE NOCASE
+
+);
+
+
+
+DEBUG 2018-10-27 16:29:44,955 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:491) - added schema for SQLite table [Foreigner_PandectBanners]
+DEBUG 2018-10-27 16:29:44,955 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:44,955 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:44,956 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:44,956 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+ INFO 2018-10-27 16:29:44,956 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:574) - 
+
+CREATE TABLE [Bim_ProjectsIofo] (
+	[ProjectId]	integer NOT NULL,
+	[ProjectInof]	varchar(36) COLLATE NOCASE,
+	[ProjectName]	varchar(50) COLLATE NOCASE,
+	[Introduction]	varchar(350) COLLATE NOCASE
+
+);
+
+
+
+DEBUG 2018-10-27 16:29:45,061 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:491) - added schema for SQLite table [Bim_ProjectsIofo]
+DEBUG 2018-10-27 16:29:45,061 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,061 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,061 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,121 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,121 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,121 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,121 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,121 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,121 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,121 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,122 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+ INFO 2018-10-27 16:29:45,122 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:574) - 
+
+CREATE TABLE [Foreigner_PandectRecords] (
+	[Id]	varchar(36) NOT NULL COLLATE NOCASE,
+	[PartName]	varchar(20) COLLATE NOCASE,
+	[ActualScheduled]	varchar(10) COLLATE NOCASE,
+	[PlanScheduled]	varchar(10) COLLATE NOCASE,
+	[QualityNumber]	varchar(6) COLLATE NOCASE,
+	[QualityPassNumber]	varchar(6) COLLATE NOCASE,
+	[QualityScale]	varchar(6) COLLATE NOCASE,
+	[SafetyNumber]	varchar(6) COLLATE NOCASE,
+	[SafetyPassNumber]	varchar(6) COLLATE NOCASE,
+	[SafetyScale]	varchar(6) COLLATE NOCASE,
+	[TenderId]	varchar(36) COLLATE NOCASE
+
+);
+
+
+
+DEBUG 2018-10-27 16:29:45,432 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:491) - added schema for SQLite table [Foreigner_PandectRecords]
+DEBUG 2018-10-27 16:29:45,432 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,432 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,432 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,432 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,432 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,432 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,433 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,433 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+ INFO 2018-10-27 16:29:45,522 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:574) - 
+
+CREATE TABLE [Bim_ProjectIcon] (
+	[id]	integer NOT NULL,
+	[GUID]	nvarchar(50) COLLATE NOCASE,
+	[Engineering]	nvarchar(50) COLLATE NOCASE,
+	[name]	nvarchar(50) COLLATE NOCASE,
+	[X]	nvarchar(50) COLLATE NOCASE,
+	[Y]	nvarchar(50) COLLATE NOCASE,
+	[Z]	nvarchar(50) COLLATE NOCASE,
+	[Channel]	nvarchar(50) COLLATE NOCASE
+
+);
+
+
+
+DEBUG 2018-10-27 16:29:45,631 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:491) - added schema for SQLite table [Bim_ProjectIcon]
+DEBUG 2018-10-27 16:29:45,632 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,632 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,632 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,632 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,632 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,632 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,723 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,723 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,723 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,723 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+ INFO 2018-10-27 16:29:45,723 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:574) - 
+
+CREATE TABLE [DrawingsElement] (
+	[Order_Id]	varchar(20) NOT NULL COLLATE NOCASE,
+	[Display_Name]	nvarchar(50) NOT NULL COLLATE NOCASE,
+	[Drawings_Type]	char(20) NOT NULL COLLATE NOCASE,
+	[Element_Guid]	nvarchar(36) NOT NULL COLLATE NOCASE,
+	[Parent_Guid]	nvarchar(36) NOT NULL COLLATE NOCASE,
+	[IsFile]	bit NOT NULL,
+	[FileSuffix]	char(20) COLLATE NOCASE,
+	[Fixed]	bit NOT NULL,
+	[Path]	nvarchar NOT NULL COLLATE NOCASE,
+	[IsContact]	bit
+
+);
+
+
+
+DEBUG 2018-10-27 16:29:45,788 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:491) - added schema for SQLite table [DrawingsElement]
+DEBUG 2018-10-27 16:29:45,788 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,924 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,924 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,924 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,924 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:45,924 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+ INFO 2018-10-27 16:29:45,924 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:574) - 
+
+CREATE TABLE [CityMakerWKT] (
+	[Guid]	nvarchar(50) COLLATE NOCASE,
+	[ProjectGuid]	nvarchar(50) COLLATE NOCASE,
+	[ProjectName]	nvarchar(100) COLLATE NOCASE,
+	[WKT]	nvarchar(800) COLLATE NOCASE,
+	[Tender]	nvarchar(100) COLLATE NOCASE,
+	[CreateDate]	datetime
+
+);
+
+
+
+DEBUG 2018-10-27 16:29:46,004 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:491) - added schema for SQLite table [CityMakerWKT]
+DEBUG 2018-10-27 16:29:46,004 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:46,004 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:46,124 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:46,124 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:46,124 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:46,124 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:46,124 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:46,124 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:46,125 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:46,125 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:46,125 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:46,125 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:46,125 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:46,125 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+ INFO 2018-10-27 16:29:46,325 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:574) - 
+
+CREATE TABLE [KingsRoad_Projects] (
+	[Id]	varchar(36) NOT NULL COLLATE NOCASE,
+	[RoadGuid]	varchar(36) NOT NULL COLLATE NOCASE,
+	[RoadName]	varchar(50) COLLATE NOCASE,
+	[ProjectGuid]	varchar(50) NOT NULL COLLATE NOCASE,
+	[Tender]	varchar(100) COLLATE NOCASE,
+	[P1_x]	float,
+	[P1_y]	float,
+	[P2_x]	float,
+	[P2_y]	float,
+	[P3_x]	float,
+	[P3_y]	float,
+	[P4_x]	float,
+	[P4_y]	float,
+	[SourceWKT]	varchar(500) COLLATE NOCASE
+
+);
+
+
+
+DEBUG 2018-10-27 16:29:46,414 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:491) - added schema for SQLite table [KingsRoad_Projects]
+DEBUG 2018-10-27 16:29:46,414 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:46,414 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:46,414 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:46,414 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:46,414 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:46,525 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+ INFO 2018-10-27 16:29:46,525 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:574) - 
+
+CREATE TABLE [DATmpTable] (
+	[Id]	integer NOT NULL,
+	[PartId]	char(32) NOT NULL COLLATE NOCASE,
+	[ActualPath]	varchar NOT NULL COLLATE NOCASE,
+	[PlanPath]	varchar NOT NULL COLLATE NOCASE,
+	[QualityPath]	varchar NOT NULL COLLATE NOCASE,
+	[SafetyPath]	varchar NOT NULL COLLATE NOCASE,
+    PRIMARY KEY ([Id])
+
+);
+
+
+
+DEBUG 2018-10-27 16:29:46,613 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:491) - added schema for SQLite table [DATmpTable]
+DEBUG 2018-10-27 16:29:46,613 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:46,613 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:46,613 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:46,613 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:46,613 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:46,726 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:46,726 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:46,726 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+ INFO 2018-10-27 16:29:46,726 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:574) - 
+
+CREATE TABLE [Bim_Projects] (
+	[ProjectId]	varchar(36) NOT NULL COLLATE NOCASE,
+	[ProjectName]	varchar(50) COLLATE NOCASE,
+	[Introduction]	varchar(350) COLLATE NOCASE,
+	[CepPath]	varchar(350) COLLATE NOCASE,
+	[TerrainPath]	varchar(350) COLLATE NOCASE,
+	[LocalCep]	bit,
+	[LocalTerrain]	bit,
+	[Activation]	bit,
+    PRIMARY KEY ([ProjectId])
+
+);
+
+
+
+DEBUG 2018-10-27 16:29:46,837 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:491) - added schema for SQLite table [Bim_Projects]
+DEBUG 2018-10-27 16:29:46,837 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:46,837 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:46,837 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:46,837 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+ INFO 2018-10-27 16:29:46,926 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:574) - 
+
+CREATE TABLE [TmpAssociateTable] (
+	[Id]	integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	[Tender]	integer NOT NULL,
+	[vPartId]	varchar(50) NOT NULL COLLATE NOCASE,
+	[bimPartId]	varchar(50) NOT NULL COLLATE NOCASE
+
+);
+
+
+
+DEBUG 2018-10-27 16:29:47,045 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:491) - added schema for SQLite table [TmpAssociateTable]
+DEBUG 2018-10-27 16:29:47,045 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,045 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,045 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,046 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,046 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,046 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,046 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,127 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,127 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,127 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,127 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,127 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,127 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,127 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,128 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,128 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [(0)] AFTER [0]
+ INFO 2018-10-27 16:29:47,128 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:574) - 
+
+CREATE TABLE [Bim_Parts] (
+	[Id]	varchar(36) NOT NULL COLLATE NOCASE,
+	[ParentId]	varchar(36) COLLATE NOCASE,
+	[ProjectId]	varchar(36) COLLATE NOCASE,
+	[PartName]	varchar(120) COLLATE NOCASE,
+	[FieldIndex]	integer,
+	[FullName]	varchar(300) COLLATE NOCASE,
+	[Category]	varchar(32) COLLATE NOCASE,
+	[Nature]	varchar(32) COLLATE NOCASE,
+	[S]	varchar(8) COLLATE NOCASE,
+	[G]	varchar(8) COLLATE NOCASE,
+	[N]	varchar(8) COLLATE NOCASE,
+	[Attributes]	text(2147483647) COLLATE NOCASE,
+	[FeatureClassId]	varchar(36) COLLATE NOCASE,
+	[ObjectId]	varchar(10) COLLATE NOCASE,
+	[Tender]	varchar(10) COLLATE NOCASE,
+	[IsVirtualGroup]	bit NOT NULL DEFAULT 0,
+    PRIMARY KEY ([Id])
+,
+    FOREIGN KEY ([ProjectId])
+        REFERENCES [Bim_Projects]([ProjectId])
+);
+CREATE INDEX [Bim_Parts_NonClusteredIndex-20180920-141930]
+ON [Bim_Parts]
+([Id] DESC, [ParentId] DESC, [FeatureClassId] DESC, [ObjectId] DESC);
+
+
+
+DEBUG 2018-10-27 16:29:47,547 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:491) - added schema for SQLite table [Bim_Parts]
+DEBUG 2018-10-27 16:29:47,548 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,548 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,548 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,548 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,548 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,548 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,548 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,548 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,549 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,549 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,549 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,728 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,728 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,728 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [(getdate)] AFTER [getdate]
+DEBUG 2018-10-27 16:29:47,728 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:725) - converted SQL Server GETDATE() to CURRENT_TIMESTAMP for column [CreatDate]
+ INFO 2018-10-27 16:29:47,728 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:574) - 
+
+CREATE TABLE [CityMakerEnvelope] (
+	[EnvelopeGuid]	varchar(50) COLLATE NOCASE,
+	[ProjectGuid]	varchar(50) COLLATE NOCASE,
+	[FeatureClassId]	varchar(50) COLLATE NOCASE,
+	[ObjectId]	integer,
+	[Depth]	float,
+	[Height]	float,
+	[MinX]	float,
+	[MaxX]	float,
+	[MinY]	float,
+	[MaxY]	float,
+	[MinZ]	float,
+	[MaxZ]	float,
+	[Width]	float,
+	[CreatDate]	datetime DEFAULT (CURRENT_TIMESTAMP)
+
+);
+
+
+
+DEBUG 2018-10-27 16:29:47,836 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:491) - added schema for SQLite table [CityMakerEnvelope]
+DEBUG 2018-10-27 16:29:47,836 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,929 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,929 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,929 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,929 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,929 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,929 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,929 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,930 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,930 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,930 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,930 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:47,930 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+ INFO 2018-10-27 16:29:48,129 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:574) - 
+
+CREATE TABLE [v_parts] (
+	[partid]	char(32) NOT NULL COLLATE NOCASE,
+	[projectid]	char(32) COLLATE NOCASE,
+	[pjctcode]	varchar(32) COLLATE NOCASE,
+	[pjctname]	varchar(64) COLLATE NOCASE,
+	[segmentid]	char(32) COLLATE NOCASE,
+	[sgmtcode]	varchar(32) COLLATE NOCASE,
+	[sgmtname]	varchar(64) COLLATE NOCASE,
+	[partcode]	varchar(32) COLLATE NOCASE,
+	[partname]	varchar(64) COLLATE NOCASE,
+	[fullname]	varchar(256) COLLATE NOCASE,
+	[nature]	varchar(16) COLLATE NOCASE,
+	[status]	varchar(16) COLLATE NOCASE,
+	[pid]	char(32) COLLATE NOCASE,
+    PRIMARY KEY ([partid])
+
+);
+
+
+
+DEBUG 2018-10-27 16:29:48,216 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:491) - added schema for SQLite table [v_parts]
+DEBUG 2018-10-27 16:29:48,216 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:48,216 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:48,216 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:48,216 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:48,329 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:48,329 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:48,329 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:48,329 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:48,329 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:48,329 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:48,329 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:48,330 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:48,330 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:48,330 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:48,330 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:48,330 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:48,529 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+ INFO 2018-10-27 16:29:48,529 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:574) - 
+
+CREATE TABLE [v_items] (
+	[itemid]	char(32) NOT NULL COLLATE NOCASE,
+	[partid]	char(32) NOT NULL COLLATE NOCASE,
+	[code]	varchar(32) COLLATE NOCASE,
+	[name]	varchar(64) COLLATE NOCASE,
+	[unit]	varchar(16) COLLATE NOCASE,
+	[price]	numeric,
+	[count]	numeric,
+	[amount]	numeric,
+	[zerosetcount]	numeric,
+	[zerosetamount]	numeric,
+	[changecount]	numeric,
+	[changeamount]	numeric,
+	[changedcount]	numeric,
+	[changedamount]	numeric,
+	[meteringcount]	numeric,
+	[meteringamount]	numeric,
+	[changeorder]	varchar(32) COLLATE NOCASE,
+    PRIMARY KEY ([itemid])
+
+);
+
+
+
+DEBUG 2018-10-27 16:29:48,607 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:491) - added schema for SQLite table [v_items]
+DEBUG 2018-10-27 16:29:48,608 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:48,608 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:48,730 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:48,730 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:48,730 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:48,730 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:48,730 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:48,730 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:48,730 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:48,731 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:48,731 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+ INFO 2018-10-27 16:29:48,731 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:574) - 
+
+CREATE TABLE [v_quality] (
+	[reportid]	char(32) NOT NULL COLLATE NOCASE,
+	[partid]	char(32) NOT NULL COLLATE NOCASE,
+	[code]	varchar(64) COLLATE NOCASE,
+	[name]	varchar(64) COLLATE NOCASE,
+	[uri]	varchar(256) COLLATE NOCASE,
+	[status]	varchar(16) COLLATE NOCASE,
+	[owner]	varchar(16) COLLATE NOCASE,
+	[istemp]	varchar(8) COLLATE NOCASE,
+	[createtime]	datetime,
+	[submtime]	datetime,
+	[audittime]	datetime,
+    PRIMARY KEY ([reportid])
+
+);
+
+
+
+DEBUG 2018-10-27 16:29:49,049 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:491) - added schema for SQLite table [v_quality]
+DEBUG 2018-10-27 16:29:49,050 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:49,050 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:49,050 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:49,050 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:49,050 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:49,050 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:49,050 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:49,051 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:49,131 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE ['0'] AFTER ['0']
+DEBUG 2018-10-27 16:29:49,131 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:49,131 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:49,131 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:49,131 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:49,131 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:49,131 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:49,132 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+ INFO 2018-10-27 16:29:49,132 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:574) - 
+
+CREATE TABLE [v_progress] (
+	[partid]	char(32) NOT NULL COLLATE NOCASE,
+	[unit]	varchar(16) COLLATE NOCASE,
+	[origincount]	numeric,
+	[origincount_]	numeric,
+	[changecount]	numeric,
+	[changecount_]	numeric,
+	[compledtcount]	numeric,
+	[compledtcount_]	numeric,
+	[iskey]	smallint NOT NULL DEFAULT '0',
+	[planstarttime]	varchar(16) COLLATE NOCASE,
+	[planendtime]	varchar(16) COLLATE NOCASE,
+	[planschedule]	varchar(8) COLLATE NOCASE,
+	[realstarttime]	varchar(16) COLLATE NOCASE,
+	[realendtime]	varchar(16) COLLATE NOCASE,
+	[realschedule]	varchar(8) COLLATE NOCASE,
+	[remark]	varchar(256) COLLATE NOCASE,
+    PRIMARY KEY ([partid])
+
+);
+
+
+
+DEBUG 2018-10-27 16:29:49,415 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:491) - added schema for SQLite table [v_progress]
+DEBUG 2018-10-27 16:29:49,416 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:49,416 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:49,416 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:49,416 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:49,416 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:49,416 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:49,416 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:49,533 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+ INFO 2018-10-27 16:29:49,533 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:574) - 
+
+CREATE TABLE [Bim_Users] (
+	[UserId]	integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	[UserName]	varchar(20) NOT NULL COLLATE NOCASE,
+	[UserPwd]	varchar(200) NOT NULL COLLATE NOCASE,
+	[UserAlias]	varchar(30) NOT NULL COLLATE NOCASE,
+	[UserGroupId]	varchar(36) NOT NULL COLLATE NOCASE,
+	[DefaultProjectId]	varchar(36) COLLATE NOCASE,
+	[OwnerProjects]	varchar(720) COLLATE NOCASE,
+	[LastLoginDate]	varchar(40) COLLATE NOCASE
+
+);
+CREATE UNIQUE INDEX [Bim_Users_AK_Bim_Users_UserName]
+ON [Bim_Users]
+([UserName] DESC);
+
+
+
+DEBUG 2018-10-27 16:29:49,745 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:491) - added schema for SQLite table [Bim_Users]
+DEBUG 2018-10-27 16:29:49,746 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:49,746 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:49,746 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:49,746 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+ INFO 2018-10-27 16:29:49,746 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:574) - 
+
+CREATE TABLE [Bim_UserGroups] (
+	[GroupId]	varchar(36) NOT NULL COLLATE NOCASE,
+	[GroupName]	varchar(20) NOT NULL COLLATE NOCASE,
+	[Remark]	varchar(200) NOT NULL COLLATE NOCASE,
+	[Owner]	varchar(36) NOT NULL COLLATE NOCASE,
+    PRIMARY KEY ([GroupId])
+
+);
+CREATE UNIQUE INDEX [Bim_UserGroups_AK_Bim_UserGroups_GroupName]
+ON [Bim_UserGroups]
+([GroupName] DESC);
+
+
+
+DEBUG 2018-10-27 16:29:50,071 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:491) - added schema for SQLite table [Bim_UserGroups]
+DEBUG 2018-10-27 16:29:50,071 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:50,071 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:50,071 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:50,071 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:50,072 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:50,072 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:50,072 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:50,072 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:50,072 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+ INFO 2018-10-27 16:29:50,072 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:574) - 
+
+CREATE TABLE [Bim_Roles] (
+	[RoleId]	varchar(36) NOT NULL COLLATE NOCASE,
+	[RoleName]	varchar(20) NOT NULL COLLATE NOCASE,
+	[Description]	varchar(200) NOT NULL COLLATE NOCASE,
+	[Owner]	varchar(36) NOT NULL COLLATE NOCASE,
+	[State]	bit NOT NULL,
+	[Sort]	integer NOT NULL,
+	[CommandLine]	varchar(200) NOT NULL COLLATE NOCASE,
+	[AssemblyPathName]	varchar(100) NOT NULL COLLATE NOCASE,
+	[ImageIndex]	integer,
+    PRIMARY KEY ([RoleId])
+
+);
+
+
+
+DEBUG 2018-10-27 16:29:50,213 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:491) - added schema for SQLite table [Bim_Roles]
+DEBUG 2018-10-27 16:29:50,213 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:50,213 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:50,213 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+ INFO 2018-10-27 16:29:50,213 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:574) - 
+
+CREATE TABLE [Bim_Permissions] (
+	[Id]	integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	[GroupId]	varchar(36) NOT NULL COLLATE NOCASE,
+	[RoleId]	varchar(36) NOT NULL COLLATE NOCASE
+,
+    FOREIGN KEY ([GroupId])
+        REFERENCES [Bim_UserGroups]([GroupId]),
+    FOREIGN KEY ([RoleId])
+        REFERENCES [Bim_Roles]([RoleId])
+);
+
+
+
+DEBUG 2018-10-27 16:29:50,438 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:491) - added schema for SQLite table [Bim_Permissions]
+DEBUG 2018-10-27 16:29:50,438 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:50,438 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+DEBUG 2018-10-27 16:29:50,438 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:722) - DEFAULT VALUE BEFORE [] AFTER []
+ INFO 2018-10-27 16:29:50,438 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:574) - 
+
+CREATE TABLE [Bim_UserOwners] (
+	[Id]	integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	[GroupId]	varchar(36) NOT NULL COLLATE NOCASE,
+	[UserId]	integer NOT NULL
+,
+    FOREIGN KEY ([GroupId])
+        REFERENCES [Bim_UserGroups]([GroupId]),
+    FOREIGN KEY ([UserId])
+        REFERENCES [Bim_Users]([UserId])
+);
+
+
+
+DEBUG 2018-10-27 16:29:50,545 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:491) - added schema for SQLite table [Bim_UserOwners]
+DEBUG 2018-10-27 16:29:50,546 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:519) - finished adding all table/view schemas for SQLite database
+DEBUG 2018-10-27 16:29:50,546 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:133) - preparing to insert tables ...
+DEBUG 2018-10-27 16:29:50,621 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:186) - finished inserting all rows for table [Bim_IconLocation]
+DEBUG 2018-10-27 16:29:51,073 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:186) - finished inserting all rows for table [CityMakerTree]
+DEBUG 2018-10-27 16:29:51,075 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:186) - finished inserting all rows for table [Foreigner_PandectBanners]
+DEBUG 2018-10-27 16:29:51,170 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:186) - finished inserting all rows for table [Bim_ProjectsIofo]
+DEBUG 2018-10-27 16:29:51,253 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:186) - finished inserting all rows for table [Foreigner_PandectRecords]
+DEBUG 2018-10-27 16:29:51,354 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:186) - finished inserting all rows for table [Bim_ProjectIcon]
+DEBUG 2018-10-27 16:29:53,582 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:186) - finished inserting all rows for table [DrawingsElement]
+DEBUG 2018-10-27 16:29:53,656 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:186) - finished inserting all rows for table [CityMakerWKT]
+DEBUG 2018-10-27 16:29:53,747 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:186) - finished inserting all rows for table [KingsRoad_Projects]
+DEBUG 2018-10-27 16:29:53,834 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:186) - finished inserting all rows for table [DATmpTable]
+DEBUG 2018-10-27 16:29:53,931 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:186) - finished inserting all rows for table [Bim_Projects]
+DEBUG 2018-10-27 16:29:54,175 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:186) - finished inserting all rows for table [TmpAssociateTable]
+DEBUG 2018-10-27 16:30:18,475 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:186) - finished inserting all rows for table [Bim_Parts]
+DEBUG 2018-10-27 16:30:25,716 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:186) - finished inserting all rows for table [CityMakerEnvelope]
+ERROR 2018-10-27 16:31:03,728 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:190) - unexpected exception
+System.ApplicationException: User cancelled the conversion
+   在 DbAccess.SqlServerToSQLite.CheckCancelled() 位置 F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:行号 901
+   在 DbAccess.SqlServerToSQLite.CopySqlServerRowsToSQLiteDB(String sqlConnString, String sqlitePath, List`1 schema, String password, SqlConversionHandler handler) 位置 F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:行号 173
+ERROR 2018-10-27 16:31:03,735 (F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:74) - Failed to convert SQL Server database to SQLite database
+System.ApplicationException: User cancelled the conversion
+   在 DbAccess.SqlServerToSQLite.CheckCancelled() 位置 F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:行号 901
+   在 DbAccess.SqlServerToSQLite.CopySqlServerRowsToSQLiteDB(String sqlConnString, String sqlitePath, List`1 schema, String password, SqlConversionHandler handler) 位置 F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:行号 192
+   在 DbAccess.SqlServerToSQLite.ConvertSqlServerDatabaseToSQLiteFile(String sqlConnString, String sqlitePath, String password, SqlConversionHandler handler, SqlTableSelectionHandler selectionHandler, FailedViewDefinitionHandler viewFailureHandler, Boolean createTriggers, Boolean createViews) 位置 F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:行号 111
+   在 DbAccess.SqlServerToSQLite.<>c__DisplayClass3_0.<ConvertSqlServerToSQLiteDatabase>b__0(Object state) 位置 F:\C#资源\SqlServerToSqliteConverter-master\SqlConverter_v1_20\DbAccess\SqlServerToSQLite.cs:行号 68
